@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección principal a columna */
+    position: relative;
+    
+    
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.column1 {
+    background-color: #ec691f; /* Color azul */
+
+}
+
+.column2 {
+    background-color: #FFBF1B; /* Color rojo */
+}
+
+.figura1920px{
+    width: 1920px;
+    height: auto;
+    padding: auto;
+    margin-left: .1cm;
+    margin-right: .1cm;
+}
+.figuragrande {
+    width: 5400px;
+    height: auto;
+    padding: auto;
+    margin-left: .1cm;
+    margin-right: .1cm;
+  }
+
+h1{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: #491302;
+}
+
+
+.logo{
+    
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,10%);
+    border-radius: 30px 30px 30px 30px;
+    
+        display: block; /* Hace que la imagen sea un bloque */
+        margin: 0 auto;
+
+}
+
+
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: #491302;
+    margin-top: 270px;
+    
+}
+
+h4{
+    background-color: #65438F; /* Color de fondo del recuadro */
+    padding: 10px; /* Espacio interno entre el texto y el borde del recuadro */
+    border-radius: 5px; /* Borde redondeado del recuadro */
+    text-align: center;
+    width: 200px; 
+    height: 50px;
+    margin: auto;
+    color: white;
+    transform: scale(1.2); /* Cambia el valor para ajustar el grado de agrandamiento */
+    transition: transform 0.5s; /* Controla la velocidad de la transición */
+}
+
+.carrusel{
+    width: 500px;
+    height: 700px;
+    padding: 80px;
+        
+
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+
+}
+
+footer{
+    color: #e3f2fd;
+}
+
+.dulce{
+    width: 140px;
+    height: 150px;
+}
+
+.carta{
+    margin-left: 30%;
+}
+.img-fluid:hover {
+            transform: scale(1.2); /* Cambia el valor para ajustar el grado de agrandamiento */
+            transition: transform 0.5s; /* Controla la velocidad de la transición */
+}
+
+
+.icono-hover {
+    color: blue; /* Color al pasar el mouse */
+}
+
+.icono-active {
+    color: red; /* Color al hacer clic */
+}
+
+#texto {
+    color: blue; /* Color inicial */
+}

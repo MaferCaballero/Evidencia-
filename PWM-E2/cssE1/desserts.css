@@ -1,0 +1,95 @@
+
+.column1 {
+    background-color: #ec691f; /* Color azul */
+
+}
+
+.column2 {
+    background-color: #FFBF1B; /* Color rojo */
+}
+.h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+            color: rgb(251, 187, 76); /
+}
+.figuras{
+    width: 110px;
+    height: 110px;
+    padding: auto;
+    margin-left: .1cm;
+    margin-right: .1cm;
+}
+
+.desert, .desert2, .desert4{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 20px;
+    margin-left: 25%; 
+    transition: all .5s;
+
+
+}
+.desert:hover{
+    transform: scale(110%);
+}
+.desert2:hover{
+    transform: scale(110%);
+}
+.desert4:hover{
+    transform: scale(110%);
+}
+.desert1:hover{
+    transform: scale(110%);
+}
+.desert3:hover{
+    transform: scale(110%);
+}
+.desert5:hover{
+    transform: scale(110%);
+}
+
+.desert1, .desert3, .desert5{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 20px;
+    margin-left: 2%; 
+    transition: all .5s;
+
+}
+.desert1:hover{
+    transform: scale(110%);
+}
+.desert3:hover{
+    transform: scale(110%);
+}
+.desert5:hover{
+    transform: scale(110%);
+}
+
+.aside-derecho {
+    width: 90px; 
+    height: 50px; 
+    background-color: #C57032; 
+    border-radius: 15px; 
+    padding: 20px; 
+    position: absolute; 
+    top: 27%; 
+    right: 0%;
+    overflow: hidden; /* Ocultar el contenido que desplegará */
+    transition: width 0.3s ease; /* Animación suave para el ancho */
+}
+
+.aside-derecho.open {
+    width: 250px; /* Ancho expandido al abrir */
+}
+
+.icono-hover {
+    color: blue; /* Color al pasar el mouse */
+}
+
+.icono-active {
+    color: red; /* Color al hacer clic */
+}
+
+

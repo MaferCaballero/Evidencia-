@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección principal a columna */
+    position: relative;
+    
+    
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.column1 {
+    background-color: #ec691f; /* Color azul */
+
+}
+
+.column2 {
+    background-color: #FFBF1B; /* Color rojo */
+}
+
+.figura1920px{
+    width: 1920px;
+    height: auto;
+    padding: auto;
+    margin-left: .1cm;
+    margin-right: .1cm;
+}
+.figuragrande {
+    width: 5400px;
+    height: auto;
+    padding: auto;
+    margin-left: .1cm;
+    margin-right: .1cm;
+  }
+
+footer{
+    color: #e3f2fd;
+}
+
+/* .choco{
+    width: 400px;
+    height: 600px;
+    
+}
+
+.flan{
+    width: 100%;
+    height: 550px;
+} */
+
+.h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+            color: rgb(251, 187, 76); /
+}
+
+.carta{
+    margin-left: 30%;
+}
+.img-fluid:hover {
+            transform: scale(1.2); /* Cambia el valor para ajustar el grado de agrandamiento */
+            transition: transform 0.5s; /* Controla la velocidad de la transición */
+}
